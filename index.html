@@ -3,137 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Portfolio</title>
+    <title>Bheemangouda Biradar – Profile</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f5f5f5;
+            background: #eef2f3;
         }
         header {
-            background: #333;
+            background: #222;
+            padding: 25px;
             color: white;
-            padding: 30px;
             text-align: center;
         }
-        .section {
-            padding: 40px;
-            max-width: 1000px;
-            margin: auto;
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
         }
         h2 {
-            text-align: center;
+            margin-top: 0;
+            color: #333;
+        }
+        .info {
+            font-size: 18px;
             margin-bottom: 20px;
         }
-        /* Team Section */
-        .team-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
+        .skills ul {
+            list-style-type: square;
+            padding-left: 20px;
         }
-        .member-card {
-            background: white;
-            width: 250px;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        .member-card img {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            object-fit: cover;
-        }
-        /* Projects */
-        .project {
-            background: white;
-            padding: 20px;
-            margin: 15px 0;
-            border-radius: 6px;
-            box-shadow: 0 0 8px rgba(0,0,0,0.1);
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #222;
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            background: #333;
             color: white;
+            padding: 10px 18px;
+            border-radius: 5px;
+        }
+        a:hover {
+            background: #555;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Our Team Portfolio</h1>
-    <p>Creative Minds | Developers | Designers</p>
+    <h1>Bheemangouda Biradar</h1>
+    <p>Project Manager | Developer | Analyst</p>
 </header>
 
-<!-- About Team -->
-<section class="section">
-    <h2>About Our Team</h2>
-    <p>
-        We are a group of passionate individuals working together to create impactful digital solutions.
-        Our team specializes in web development, UI/UX design, software engineering, and project management.
+<div class="container">
+    <h2>About Me</h2>
+    <p class="info">
+        I am a dedicated Computer Science Engineering student with skills in team management,
+        problem-solving, and design analysis. I focus on creating efficient and impactful
+        digital solutions with clean structure and optimized performance.
     </p>
-</section>
 
-<!-- Team Members -->
-<section class="section">
-    <h2>Meet the Team</h2>
-    <div class="team-container">
-        <div class="member-card">
-            <img src="https://via.placeholder.com/100" alt="Member Photo">
-            <h3>Abhilash benarji</h3>
-            <p>Team Leader</p>
-        </div>
-
-        <div class="member-card">
-            <img src="https://via.placeholder.com/100" alt="Member Photo">
-            <h3>Omkar Anantapur</h3>
-            <p>Developer</p>
-        </div>
-
-        <div class="member-card">
-            <img src="https://via.placeholder.com/100" alt="Member Photo">
-            <h3>Manish singri</h3>
-            <p>Designer</p>
-        </div>
-
-        <div class="member-card">
-            <img src="https://via.placeholder.com/100" alt="Member Photo">
-            <h3>Bheemangouda biradar</h3>
-            <p>Project Manager</p>
-        </div>
-    </div>
-</section>
-
-<!-- Projects -->
-<section class="section">
-    <h2>Our Projects</h2>
-
-    <div class="project">
-        <h3>Project One</h3>
-        <p>A web application built to help users track daily tasks efficiently.</p>
+    <h2>Skills</h2>
+    <div class="skills">
+        <ul>
+            <li>Project Planning & Documentation</li>
+            <li>Web Development (HTML, CSS, JS)</li>
+            <li>DAA Case Study & Algorithm Analysis</li>
+            <li>Team Coordination & Leadership</li>
+        </ul>
     </div>
 
-    <div class="project">
-        <h3>Project Two</h3>
-        <p>Creative mobile app design that focuses on enhancing user experience.</p>
-    </div>
+    <h2>Current Work</h2>
+    <p>
+        Working as the Project Manager in our City Design Project team, responsible for
+        documentation, research, and workflow planning.
+    </p>
 
-    <div class="project">
-        <h3>Project Three</h3>
-        <p>AI-based tool built to automate repetitive workflows.</p>
-    </div>
-
-</section>
-
-<!-- Contact -->
-<footer>
-    <p>Contact Us: team@portfolio.com</p>
-</footer>
+    <a href="index.html">← Back to Homepage</a>
+</div>
 
 </body>
 </html>
